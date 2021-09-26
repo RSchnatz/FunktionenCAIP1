@@ -42,7 +42,7 @@ TEST_CASE("Ex43", "[example]")
     REQUIRE(fak(n2) == 1);
     REQUIRE(fak(n3) == 5040);
     REQUIRE(fak(n4) == -1);}
-/*
+
 // =====================
 // tests for exercise 4.4
 // ---------------------
@@ -57,8 +57,11 @@ TEST_CASE("Ex44", "[example]")
 // ---------------------
 TEST_CASE("Ex46", "[example]")
 {
-    REQUIRE(maximum(42,7) == 42);
-    REQUIRE(maximum(-42,7) == 7);
+    int a = 42;
+    int b = -42;
+    int c = 7;
+    REQUIRE(maximum(a,c) == 42);
+    REQUIRE(maximum(b,c) == 7);
 }
 
 // =====================
@@ -72,4 +75,4 @@ TEST_CASE("Ex47", "[example]")
     vi.push_back(7);
     REQUIRE(vectorMax(vi) == 7);
 }
-*/
+
