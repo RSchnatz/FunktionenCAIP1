@@ -11,7 +11,7 @@ double power(double y, int x);
 int fakult(int n);
 
 // Exercise 4.3: 
-//double fak(int& n)
+double fak(int& n)
 
 // Exercise 4.4: 
 //int max(int i1, int i2)
@@ -37,13 +37,13 @@ int fakult(int n)
 {
    return 0;   // TODO: fix
 }
-/*   
+  
 // Exercise 4.3: 
 double fak(int& n)   
 {
    return 0;   // TODO: fix
 }
-
+/* 
 // Exercise 4.4: 
 int max(int i1, int i2)   
 {
