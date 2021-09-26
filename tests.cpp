@@ -28,17 +28,21 @@ TEST_CASE("Ex42", "[example]")
     REQUIRE(fakult(7) == 5040);
     REQUIRE(fakult(-7) == -1);
 }
-/*
+
 // =====================
 // tests for exercise 4.3
 // ---------------------
 TEST_CASE("Ex43", "[example]")
-{
-    REQUIRE(fak(0) == 1);
-    REQUIRE(fak(1) == 1);
-    REQUIRE(fak(7) == 5040);
-    REQUIRE(fak(-7) == -1);}
-
+{   
+    int n1 = 0;
+    int n2 = 1;
+    int n3 = 7;
+    int n4 = -7;
+    REQUIRE(fak(n1) == 1);
+    REQUIRE(fak(n2) == 1);
+    REQUIRE(fak(n3) == 5040);
+    REQUIRE(fak(n3) == -1);}
+/*
 // =====================
 // tests for exercise 4.4
 // ---------------------
