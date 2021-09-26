@@ -11,7 +11,7 @@
 // =====================
 // tests for exercise 4.1
 // ---------------------
-TEST_CASE("Ex4.1", "[example]")
+TEST_CASE("Ex41", "[example]")
 {
     REQUIRE(power(4, 2) == 16);
     REQUIRE(power(4, -2) == 0.0625);
@@ -21,7 +21,7 @@ TEST_CASE("Ex4.1", "[example]")
 // =====================
 // tests for exercise 4.2
 // ---------------------
-TEST_CASE("Ex4.2", "[example]")
+TEST_CASE("Ex42", "[example]")
 {
     REQUIRE(fakult(0) == 1);
     REQUIRE(fakult(1) == 1);
@@ -32,7 +32,7 @@ TEST_CASE("Ex4.2", "[example]")
 // =====================
 // tests for exercise 4.3
 // ---------------------
-TEST_CASE("Ex4.3", "[example]")
+TEST_CASE("Ex43", "[example]")
 {
     REQUIRE(fak(0) == 1);
     REQUIRE(fak(1) == 1);
@@ -42,7 +42,7 @@ TEST_CASE("Ex4.3", "[example]")
 // =====================
 // tests for exercise 4.4
 // ---------------------
-TEST_CASE("Ex4.4", "[example]")
+TEST_CASE("Ex44", "[example]")
 {
     REQUIRE(max(42,7) == 42);
     REQUIRE(max(-42,7) == 7);
@@ -51,7 +51,7 @@ TEST_CASE("Ex4.4", "[example]")
 // =====================
 // tests for exercise 4.6
 // ---------------------
-TEST_CASE("Ex4.6", "[example]")
+TEST_CASE("Ex46", "[example]")
 {
     REQUIRE(maximum(42,7) == 42);
     REQUIRE(maximum(-42,7) == 7);
@@ -60,7 +60,7 @@ TEST_CASE("Ex4.6", "[example]")
 // =====================
 // tests for exercise 4.7
 // ---------------------
-TEST_CASE("Ex4.7", "[example]")
+TEST_CASE("Ex47", "[example]")
 {
     vector<int> vi;
     vi.push_back(-5);
