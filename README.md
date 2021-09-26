@@ -4,7 +4,7 @@
 
 In der Datei `student.hpp` befinden sich Deklarationen von Funktionen des vierten Übungsblatts.
 
-Diese Funktionen müssen im Abschnitt 'implementations' definiert werden. 
+Diese Funktionen müssen im Abschnitt `implementations` definiert werden. 
 
 Bitte nur die Datei `student.hpp` bearbeiten!
 
