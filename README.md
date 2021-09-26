@@ -1,8 +1,8 @@
 # autograding-example-cpp-catch
 
-## Instructions
+## Anleitung
 
-- You can ONLY change files `student.hpp`!
+- In der Datei `student.hpp` befinden sich Deklarationen von Funktionen des vierten Übungsblatts.
    * In file `student.hpp` put your implementations.
 
 
