@@ -28,7 +28,7 @@ TEST_CASE("Ex42", "[example]")
     REQUIRE(fakult(7) == 5040);
     REQUIRE(fakult(-7) == -1);
 }
-
+/*
 // =====================
 // tests for exercise 4.3
 // ---------------------
@@ -68,3 +68,4 @@ TEST_CASE("Ex47", "[example]")
     vi.push_back(7);
     REQUIRE(vectorMax(vi) == 7);
 }
+*/
