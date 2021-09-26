@@ -41,7 +41,7 @@ TEST_CASE("Ex43", "[example]")
     REQUIRE(fak(n1) == 1);
     REQUIRE(fak(n2) == 1);
     REQUIRE(fak(n3) == 5040);
-    REQUIRE(fak(n3) == -1);}
+    REQUIRE(fak(n4) == -1);}
 /*
 // =====================
 // tests for exercise 4.4
