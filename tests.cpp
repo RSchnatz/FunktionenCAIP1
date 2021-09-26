@@ -8,20 +8,58 @@
 #include "student.hpp" // student implementations
 
 // =====================
-// tests for exercise 1
+// tests for exercise 4.1
 // ---------------------
-
-TEST_CASE("Ex1", "[example]")
+TEST_CASE("Ex4.1", "[example]")
 {
-    REQUIRE(add(1,1) == 2);
+    REQUIRE(power(4, 2) == 16);
+    REQUIRE(power(4, -2) == 0.0625);
+    REQUIRE(power(4, 0) == 1);
 }
 
 // =====================
-// tests for exercise 2
+// tests for exercise 4.2
 // ---------------------
-
-TEST_CASE("Ex2", "[example]")
+TEST_CASE("Ex4.2", "[example]")
 {
-    REQUIRE(mul(3,3) == 9);
+    REQUIRE(fakult(0) == 1);
+    REQUIRE(fakult(1) == 1);
+    REQUIRE(fakult(7) == 5040);
+    REQUIRE(fakult(-7) == -1);
 }
 
+// =====================
+// tests for exercise 4.3
+// ---------------------
+TEST_CASE("Ex4.3", "[example]")
+{
+    REQUIRE(fak(0) == 1);
+    REQUIRE(fak(1) == 1);
+    REQUIRE(fak(7) == 5040);
+    REQUIRE(fak(-7) == -1);}
+
+// =====================
+// tests for exercise 4.4
+// ---------------------
+TEST_CASE("Ex4.4", "[example]")
+{
+    REQUIRE(max(42,7) == 42);
+    REQUIRE(max(-42,7) == 7);
+}
+
+// =====================
+// tests for exercise 4.6
+// ---------------------
+TEST_CASE("Ex4.6", "[example]")
+{
+    REQUIRE(maximum(42,7) == 42);
+    REQUIRE(maximum(-42,7) == 7);
+}
+
+// =====================
+// tests for exercise 4.7
+// ---------------------
+TEST_CASE("Ex4.7", "[example]")
+{
+    REQUIRE(add(1,1) == 2);
+}
