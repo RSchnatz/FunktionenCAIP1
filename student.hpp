@@ -14,13 +14,13 @@ int fakult(int n);
 double fak(int& n);
 
 // Exercise 4.4: 
-//int max(int i1, int i2);
+int max(int i1, int i2);
 
 // Exercise 4.6: 
-//int& maximum(int& a, int& b);
+int& maximum(int& a, int& b);
 
 // Exercise 4.7: 
-//int vectorMax(vector<int>& vi);
+int vectorMax(vector<int>& vi);
 
 
 // ===============
@@ -43,7 +43,7 @@ double fak(int& n)
 {
    return 0;   // TODO: fix
 }
-/* 
+
 // Exercise 4.4: 
 int max(int i1, int i2)   
 {
@@ -61,4 +61,4 @@ int vectorMax(vector<int>& vi)
 {
    return 0;   // TODO: fix
 }
-*/
+
