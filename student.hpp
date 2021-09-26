@@ -5,10 +5,10 @@
 using namespace std;
 
 // Exercise 4.1: 
-double power(double y, int x)
+double power(double y, int x);
 
 // Exercise 4.2: 
-int fakult(int n) 
+int fakult(int n);
 
 // Exercise 4.3: 
 //double fak(int& n)
