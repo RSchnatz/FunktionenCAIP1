@@ -14,7 +14,7 @@ int fakult(int n)
 double fak(int& n)
 
 // Exercise 4.4: 
-int maximum(int i1, int i2)
+int max(int i1, int i2)
 
 // Exercise 4.6: 
 int& maximum(int& a, int& b)
@@ -45,7 +45,7 @@ double fak(int& n)
 }
 
 // Exercise 4.4: 
-int maximum(int i1, int i2)   
+int max(int i1, int i2)   
 {
    return 0;   // TODO: fix
 }
