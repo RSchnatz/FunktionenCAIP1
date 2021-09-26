@@ -1,23 +1,64 @@
-#pragma once // prevents multiple definitions
+#pragma once 
+#include <vector>
+#include <algorithm>
+#include <iostream> 
+using namespace std;
 
-#include <iostream> // print library
+// Exercise 4.1: 
+double power(double y, int x)
 
-// Exercise 1: implements function 'add', that adds two numbers
-int add(int a, int b);
+// Exercise 4.2: 
+int fakult(int n) 
 
-// Exercise 2: implements function 'mul', that multiplies two numbers
-int mul(int a, int b);
+// Exercise 4.3: 
+double fak(int& n)
+
+// Exercise 4.4: 
+int maximum(int i1, int i2)
+
+// Exercise 4.6: 
+int& maximum(int& a, int& b)
+
+// Exercise 4.7: 
+int vectorMax(vector<int>& vi)
+
 
 // ===============
 // implementations
 
-int add(int a, int b)
+// Exercise 4.1: 
+double power(double y, int x)
 {
-   return 0; // TODO: fix
+   return 0;   // TODO: fix
 }
 
-// Exercise 2: implements function 'mul', that multiplies two numbers
-int mul(int a, int b)
+// Exercise 4.2: 
+int fakult(int n)
 {
-   return 0; // TODO: fix
+   return 0;   // TODO: fix
 }
+   
+// Exercise 4.3: 
+double fak(int& n)   
+{
+   return 0;   // TODO: fix
+}
+
+// Exercise 4.4: 
+int maximum(int i1, int i2)   
+{
+   return 0;   // TODO: fix
+}
+
+// Exercise 4.6: 
+int& maximum(int& a, int& b)   
+{
+   return 0;   // TODO: fix
+}
+
+// Exercise 4.7: 
+int vectorMax(vector<int>& vi)   
+{
+   return 0;   // TODO: fix
+}
+
